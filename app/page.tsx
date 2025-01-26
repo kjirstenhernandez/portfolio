@@ -2,6 +2,7 @@ import Contact from "@/components/Contact";
 import Header from "@/components/Header";
 import Navbar from "@/components/Navbar";
 import About from "@/components/About";
+import Resume from "@/components/Resume";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
     <Navbar />
     <Header />
     <About />
+    <Resume />
     <Contact />
     </>
   );

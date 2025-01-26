@@ -3,8 +3,6 @@ import project_icon from './project-icon.png';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
 import mail_icon from './mail_icon.png';
-import profile_img from './profile-img.png';
-import download_icon from './download-icon.png';
 import header_bg_color from './header-bg-color.png';
 import arrow_icon from './arrow-icon.png';
 import menu_black from './menu-black.png';
@@ -26,8 +24,6 @@ export const assets = {
     right_arrow_white,
     logo,
     mail_icon,
-    profile_img,
-    download_icon,
     download_icon_white,
     header_bg_color,
     arrow_icon,
