@@ -4,7 +4,7 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div id='about' className = 'w-full px-[12%] py-10 scroll-mt-20'>
+        <div id='about' className='w-full px-[12%] py-10 scroll-mt-20'>
             <h4 className='text-center mb-2 text-lg font-Ovo'>
                Introduction 
             </h4>
@@ -17,7 +17,7 @@ const About = () => {
                 </div>
                 <div className='flex-1'> 
                     <p className='mb-10 max-w-2xl font-Ovo'>
-                        I have a passion for analyzing complex problems and finding an efficient solution.  I'm gaining hands-on experience in both front-end and back-end development, and I have a solid foundation in algorithms, data structures, and software design principles.  With 10 years of experience as a Certified Ophthalmic Technician, I've seen firsthand how technology can significantly improve lives, and I'm eager to contribute to future innovations. I'm excited to work with a team and continue developing my skills as I work towards becoming a software engineer. 
+                        I have a passion for analyzing complex problems and finding an efficient solution.  I&apos;m gaining hands-on experience in both front-end and back-end development, and I have a solid foundation in algorithms, data structures, and software design principles.  With 10 years of experience as a Certified Ophthalmic Technician, I&apos;ve seen firsthand how technology can significantly improve lives, and I&apos;m eager to contribute to future innovations. I&apos;m excited to work with a team and continue developing my skills as I work towards becoming a software engineer. 
                     </p>
                 </div> 
                 
@@ -26,7 +26,7 @@ const About = () => {
             {projectData.map(({title, image, description}, index) => (
                 <div className="relative flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96" key={index}>
                     <div className="relative h-56 m-2.5 overflow-hidden text-white rounded-md flex justify-center">
-                        <Image src={image} alt="card-image"  />
+                        <Image src={image} alt="card-image" />
                     </div>
                     <div className="p-4">
                         <h6 className="mb-2 text-slate-800 text-xl font-semibold">

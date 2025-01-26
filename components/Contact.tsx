@@ -46,7 +46,7 @@ const Contact = () => {
             Contact Me
         </h2>
         <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
-            I'd love to hear from you!  If you have any questions, comments, or suggestions, please use the form below to reach out.
+            I&apos;d love to hear from you!  If you have any questions, comments, or suggestions, please use the form below to reach out.
         </p>
         <form onSubmit={onSubmit} className='max-w-2xl mx-auto'>
             <div className='grid grid-cols-auto gap-6 mt-10 mb-8'>
@@ -63,7 +63,7 @@ const Contact = () => {
                 />
                 <button type='submit' className='py-3 px-8 w-max flex items-center justify-between gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500'>Submit <Image src={assets.right_arrow_white} alt='right arrow in white' className='w-4'/></button>
             </div>
-            
+            <p className='mt-4'>{result}</p>
         </form>
     </div>
   )
