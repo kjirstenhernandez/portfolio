@@ -13,10 +13,10 @@ export default {
         darkHover: '#2a004a',
       },
       fontFamily: {
-        Outfit: 
-        ['Outfit', 'sans-serif'],
-        Ovo: 
-        ['Ovo', 'serif']
+        Esteban:
+        ['Esteban', 'serif'],
+        Quicksand:
+        ['Quicksand', 'sans-serif']
       }
     },
   },

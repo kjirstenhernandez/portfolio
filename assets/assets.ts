@@ -40,5 +40,25 @@ export const assets = {
 };
 
 export const projectData = [
-    { title: 'Doctor Directory Backend', image: assets.screen_one, description: 'A directory of doctors and offices in order to make continuity of care easier for the providers of Utah Valley.'}
+    { title: 'Doctor Directory Backend', image: assets.screen_one, description: `I am developing and refining the backend of a directory management site designed to streamline access to contact information for medical providers and offices across Utah Valley. The platform allows users to search, filter, and view listings, while admins can manage provider and office details. By simplifying the process of connecting with other physicians, this site is expected to significantly improve continuity of care and reduce the time and effort required by staff.`}
 ]
+
+export const educationInfo = [
+    {degree: 'Bachelor of Science in Applied Technology', school: 'Brigham Young University - Idaho', location: 'Rexburg, ID', dates: 'Aug 2022 - Aug 2025', accomplishments: [{bullet: "GPA of 3.97"}, {bullet: 'Developed the backend for a JavaScript web application enabling userse to store and manage doctor and office contact information, enhancing continuity of care.'}, {bullet: 'Designed and implemented a responsive web page using Node.js, APIs, and object-oriented JavaScript to dynamically display a list of cat breeds, with detailed information accessible on click.'},{ bullet: 'Collaborated with a team to develop a Next.js e-commerce application that enables users to search, filter, and purchase products, create and manage personalized shops, and sell handmade items.'}, {bullet: 'Collaborated with a team to develop an ASP.NET Core application using an SQLite database, providing users an organized platform to track personal media collections online by creating an account-, adding, editing, or deleting media items, and searching or filtering through their collection.'}]}
+]
+
+export const experienceInfo = [
+    {position: 'Ophthalmic Technician', dates: 'April 2015 - Current', business: 'Utah Valley Eye Center', location: 'Provo, UT', accomplishments: [
+        {bullet: 'Fostered positive patient experience through exceptional job performance coupled with my exuberant personality, leading to a 98% average satisfaction rating'}, 
+        {bullet: 'Performed, analyzed, and interpretted an estimated 35 specialized tests weekly, particularly OCT, OPTOS, and Pentacam, then relayed results to the attending physician and patient.'}, 
+        {bullet: 'Assisted in numerous in-office procedures, including cyst removal, chalazion excision, bleb revision, foreign body removal, and corneal transplant stitch removal.'}, 
+        {bullet: 'Trained over 15 new technicians in teh procedures and practices of ophthalmic assisting, including HIPAA compliance and medical coding.'}
+    ]}, 
+    {position: 'Graphic Designer', dates: 'January 2018 - Current', business: 'Utah Valley Eye Center', location: 'Provo, UT', accomplishments: [
+        {bullet: 'Collaborated with teh marketing coordinator to create a social media strategy that yielded a 40% increase in engagement and growth over the course of one year.'},
+        {bullet: 'Designed and produced compelling visual media using Photoshop, Illustrator, InDesign, and Premier, resulting in a 127% increase in audience reach.'
+        }
+    ]}
+]
+
+export const skillsList = ['JavaScript, .NET, HTML/CSS, C#, SQL', 'Git, Github', 'Adobe Photoshop/Illustrator', 'Problem-Solving', 'Critical Thinking', 'Communication/Teamwwork']

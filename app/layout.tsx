@@ -1,14 +1,16 @@
 import type { Metadata } from "next";
-import { Outfit, Ovo } from "next/font/google";
+import { Esteban, Quicksand } from "next/font/google";
 import "./globals.css";
 
-const outfit = Outfit({
-  subsets: ["latin"], weight: ["400", "500", "600", "700"]
-});
 
-const ovo = Ovo({
+const quicksand = Quicksand({
+  subsets: ["latin"], weight: ["400", "500", "600", "700"]
+})
+
+
+const esteban = Esteban({
   subsets: ["latin"], weight: ["400"]
-});
+})
 
 export const metadata: Metadata = {
   title: "Portfolio - Kjirsten Hernandez",
@@ -23,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${outfit.className} ${ovo.className} antialiased leading-8 overflow-x-hidden`}
+        className={`${esteban.className} ${quicksand.className} antialiased leading-8 overflow-x-hidden`}
       >
         {children}
       </body>

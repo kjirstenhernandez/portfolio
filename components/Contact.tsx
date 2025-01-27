@@ -42,10 +42,10 @@ const Contact = () => {
 
   return (
     <div id='contact' className='w-full px-[12%] py-10 scroll-mt-20 bg-[url("/footer-bg-color.png")] bg-no-repeat bg-center bg-[length:90%_auto]'>
-        <h2 className="text-center text-4xl font-Ovo">
+        <h2 className="text-center text-4xl font-Esteban">
             Contact Me
         </h2>
-        <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
+        <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Quicksand">
             I&apos;d love to hear from you!  If you have any questions, comments, or suggestions, please use the form below to reach out.
         </p>
         <form onSubmit={onSubmit} className='max-w-2xl mx-auto'>
