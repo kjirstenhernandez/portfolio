@@ -16,6 +16,7 @@ import download_icon_white from './download-icon-white.png'
 import screen_one from './Screen1.jpg'
 import github_icon from './github-mark.png'
 import linkedin_icon from './linkedin.png'
+import catlas from './catlas.jpg'
 
 
 export const assets = {
@@ -36,11 +37,13 @@ export const assets = {
     right_arrow_bold,
     screen_one,
     github_icon,
-    linkedin_icon
+    linkedin_icon,
+    catlas
 };
 
 export const projectData = [
-    { title: 'Doctor Directory Backend', image: assets.screen_one, description: `I am developing and refining the backend of a directory management site designed to streamline access to contact information for medical providers and offices across Utah Valley. The platform allows users to search, filter, and view listings, while admins can manage provider and office details. By simplifying the process of connecting with other physicians, this site is expected to significantly improve continuity of care and reduce the time and effort required by staff.`}
+    { title: 'Doctor Directory Backend', image: assets.screen_one, description: `I am developing and refining the backend of a directory management site designed to streamline access to contact information for medical providers and offices across Utah Valley. The platform allows users to search, filter, and view listings, while admins can manage provider and office details. By simplifying the process of connecting with other physicians, this site is expected to significantly improve continuity of care and reduce the time and effort required by staff.`},
+    {title: 'Catlas', image: assets.catlas, description: "This website showcases a comprehensive list of cat breeds, allowing users to explore and finding more detailed information on any cat as well as add their favorites ro a list for later viewing. It utilizes a third-party API to dynamically fetch and display data, JavaScript  to load pages and content dynamically, and  local storageto store a user's favorites."}
 ]
 
 export const educationInfo = [
