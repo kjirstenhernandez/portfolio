@@ -11,7 +11,7 @@ const Header = () => {
         <a href='#contact' className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2'>
           contact me <Image src={assets.right_arrow_white} alt='' className='w-4' />
         </a>
-        <a href='/resume.pdf' download='resume.pdf' className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2'>
+        <a href='/resume.pdf' download='Kjirsten Hernandez Resume' className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2'>
           my resume <Image src={assets.download_icon_white} alt='download icon' className='w-4' />
         </a>
       </div>

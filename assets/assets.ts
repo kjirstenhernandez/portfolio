@@ -49,14 +49,13 @@ export const educationInfo = [
 
 export const experienceInfo = [
     {position: 'Ophthalmic Technician', dates: 'April 2015 - Current', business: 'Utah Valley Eye Center', location: 'Provo, UT', accomplishments: [
-        {bullet: 'Fostered positive patient experience through exceptional job performance coupled with my exuberant personality, leading to a 98% average satisfaction rating'}, 
-        {bullet: 'Performed, analyzed, and interpretted an estimated 35 specialized tests weekly, particularly OCT, OPTOS, and Pentacam, then relayed results to the attending physician and patient.'}, 
-        {bullet: 'Assisted in numerous in-office procedures, including cyst removal, chalazion excision, bleb revision, foreign body removal, and corneal transplant stitch removal.'}, 
-        {bullet: 'Trained over 15 new technicians in teh procedures and practices of ophthalmic assisting, including HIPAA compliance and medical coding.'}
+        {bullet: 'Provided backup IT support by troubleshooting technical issues, performing computer mainten- ance, and addressing hardware challenges in the absence of dedicated IT staff.'}, 
+        {bullet: 'Conducted patient intake by actively listening to symptoms and concerns, analyzing information to identify relevant follow-up questions, and determining the need for additional tests to ensure accurate and efficient care.'}, 
+        {bullet: 'Achieved a 98% patient satisfaction rating as a team by ensuring timely patient care and managing high-priority tasks, thus streamlining workflow and maintaining operational consistency to meet critical deadlines.'}
     ]}, 
     {position: 'Graphic Designer', dates: 'January 2018 - Current', business: 'Utah Valley Eye Center', location: 'Provo, UT', accomplishments: [
-        {bullet: 'Collaborated with teh marketing coordinator to create a social media strategy that yielded a 40% increase in engagement and growth over the course of one year.'},
-        {bullet: 'Designed and produced compelling visual media using Photoshop, Illustrator, InDesign, and Premier, resulting in a 127% increase in audience reach.'
+        {bullet: 'Collaborated with the marketing coordinator to implement a data-driven social media strategy that yielded a 40% increase in engagement and growth over the course of one year.'},
+        {bullet: 'Designed and produced compelling visual media using Photoshop and Illustrator, resulting in a 127% increase in audience reach.'
         }
     ]}
 ]
