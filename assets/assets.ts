@@ -42,8 +42,8 @@ export const assets = {
 };
 
 export const projectData = [
-    { title: 'Doctor Directory Backend', image: assets.screen_one, description: `I am developing and refining the backend of a directory management site designed to streamline access to contact information for medical providers and offices across Utah Valley. The platform allows users to search, filter, and view listings, while admins can manage provider and office details. By simplifying the process of connecting with other physicians, this site is expected to significantly improve continuity of care and reduce the time and effort required by staff.`},
-    {title: 'Catlas', image: assets.catlas, description: "This website showcases a comprehensive list of cat breeds, allowing users to explore and finding more detailed information on any cat as well as add their favorites ro a list for later viewing. It utilizes a third-party API to dynamically fetch and display data, JavaScript  to load pages and content dynamically, and  local storageto store a user's favorites."}
+    { title: 'Doctor Directory Backend', image: assets.screen_one, link: "https://doctor-directory.onrender.com/api-docs", description: `I am developing and refining the backend of a directory management site designed to streamline access to contact information for medical providers and offices across Utah Valley. The platform allows authorized users to search, filter, and view listings, while admins can manage provider and office details. By simplifying the process of connecting with other physicians, this site is expected to significantly improve continuity of care and reduce the time and effort required by staff. `},
+    {title: 'Catlas', image: assets.catlas, link: "https://catsandcatsandcats.netlify.app/",description: "This website showcases a comprehensive list of cat breeds, allowing users to explore and finding more detailed information on any cat as well as add their favorites ro a list for later viewing. It utilizes a third-party API to dynamically fetch and display data, JavaScript  to load pages and content dynamically, and  local storageto store a user's favorites."}
 ]
 
 export const educationInfo = [
@@ -63,4 +63,4 @@ export const experienceInfo = [
     ]}
 ]
 
-export const skillsList = ['JavaScript, .NET, HTML/CSS, C#, SQL', 'Git, Github', 'Adobe Photoshop/Illustrator', 'Problem-Solving', 'Critical Thinking', 'Communication/Teamwwork']
+export const skillsList = ['JavaScript, .NET, HTML/CSS, C#, SQL', 'Git, Github', 'Adobe Photoshop and Illustrator', 'Problem-Solving', 'Critical Thinking', 'Communication and Teamwork']

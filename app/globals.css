@@ -1,6 +1,9 @@
+@import 'tailwind-scrollbar-hide';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 *{
   font-family: Quicksand;

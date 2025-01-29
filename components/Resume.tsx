@@ -23,7 +23,7 @@ const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
 
     return (
-        <div className="w-full px-[12%] py-10 scroll-mt-20" id="resume">
+        <div className="w-full max-w-4xl mx-auto px-6 sm:px-12 py-10 scroll-mt-20" id="resume">
             <h2 className="text-center text-5xl font-Esteban">Resumé</h2>
             <div className="border-b border-slate-200" key='education'>
                     <button
@@ -36,7 +36,7 @@ const [activeIndex, setActiveIndex] = useState<number | null>(null);
                         </span>
                     </button>
                     <div id={`content-${1}`} className={`overflow-hidden transition-all duration-300 ease-in-out ${activeIndex === 1 ? 'max-h-[500px]' : 'max-h-0'}`}>
-                        <div className="pb-5 text-md text-slate-600 ">{
+                        <div className="pb-5 text-md text-slate-600 max-h-[400px] overflow-y-auto scrollbar-none">{
                             educationInfo.map(({degree, school, dates, accomplishments}, index) => (
                                 <div className=' bg-white border border-gray-200 rounded-lg shadow-sm px-6 pb-4'key={index}>
                                     <div className='flex py-5 lg:flex-row sm:flex-col'>
@@ -73,7 +73,7 @@ const [activeIndex, setActiveIndex] = useState<number | null>(null);
                         </span>
                     </button>
                     <div id={`content-${2}`} className={`overflow-hidden transition-all duration-300 ease-in-out ${activeIndex === 2 ? 'max-h-[500px]' : 'max-h-0'}`}>
-                        <div className="pb-5 text-md text-slate-600 px-6">{
+                        <div className="pb-5 text-md text-slate-600 px-6 max-h-[400px] overflow-y-auto scrollbar-none">{
                             experienceInfo.map(({position, location, dates, business, accomplishments}, index) => (
                                 
                                 <div className=' bg-white border border-gray-200 rounded-lg shadow-sm px-6 pb-4 mb-3'key={index}>
@@ -111,9 +111,9 @@ const [activeIndex, setActiveIndex] = useState<number | null>(null);
                         </span>
                     </button>
                     <div id={`content-${3}`} className={`overflow-hidden transition-all duration-300 ease-in-out ${activeIndex === 3 ? 'max-h-[500px]' : 'max-h-0'}`}>
-                        <div className="flex gap-2 mb-4">{
+                        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 pb-5 px-6">{
                             skillsList.map((skill) => (
-                                <div className='rounded-md border border-slate-300 py-1 px-3 text-center text-md transition-all shadow-sm text-slate-600' key={skill}>
+                                <div className='flex items-center justify-center rounded-md border border-slate-300 py-1 px-3 text-center text-wrap text-md transition-all shadow-sm text-slate-600 ' key={skill}>
                                     {skill}
                                 </div>
                             ))
