@@ -36,7 +36,7 @@ const [activeIndex, setActiveIndex] = useState<number | null>(null);
                         </span>
                     </button>
                     <div id={`content-${1}`} className={`overflow-hidden transition-all duration-300 ease-in-out ${activeIndex === 1 ? 'max-h-[500px]' : 'max-h-0'}`}>
-                        <div className="pb-5 text-md text-slate-600 max-h-[400px] overflow-y-auto scrollbar-none">{
+                        <div className="pb-5 text-md text-slate-600 max-h-[400px] overflow-y-auto scrollbar-hide">{
                             educationInfo.map(({degree, school, dates, accomplishments}, index) => (
                                 <div className=' bg-white border border-gray-200 rounded-lg shadow-sm px-6 pb-4'key={index}>
                                     <div className='flex py-5 lg:flex-row sm:flex-col'>
@@ -73,7 +73,7 @@ const [activeIndex, setActiveIndex] = useState<number | null>(null);
                         </span>
                     </button>
                     <div id={`content-${2}`} className={`overflow-hidden transition-all duration-300 ease-in-out ${activeIndex === 2 ? 'max-h-[500px]' : 'max-h-0'}`}>
-                        <div className="pb-5 text-md text-slate-600 px-6 max-h-[400px] overflow-y-auto scrollbar-none">{
+                        <div className="pb-5 text-md text-slate-600 px-6 max-h-[400px] overflow-y-auto scrollbar-hide">{
                             experienceInfo.map(({position, location, dates, business, accomplishments}, index) => (
                                 
                                 <div className=' bg-white border border-gray-200 rounded-lg shadow-sm px-6 pb-4 mb-3'key={index}>
