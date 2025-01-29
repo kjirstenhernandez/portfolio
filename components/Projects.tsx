@@ -3,9 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 
 const Projects = () => {
-    function handleClick() {
 
-    }
     return (
         <div className='w-full mx-auto px-6 sm:px-12 py-10 scroll-mt-20'>
             <h4 id='work' className='text-center text-5xl font-Esteban scroll-mt-20'>Projects</h4>
