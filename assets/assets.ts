@@ -58,11 +58,13 @@ export const educationInfo = [
 
 export const experienceInfo = [
     {position: 'Ophthalmic Technician', dates: 'April 2015 - Current', business: 'Utah Valley Eye Center', location: 'Provo, UT', accomplishments: [
-        {bullet: 'Provided backup IT support by troubleshooting technical issues, performing computer mainten- ance, and addressing hardware challenges in the absence of dedicated IT staff.'}, 
-        {bullet: 'Conducted patient intake by actively listening to symptoms and concerns, analyzing information to identify relevant follow-up questions, and determining the need for additional tests to ensure accurate and efficient care.'}, 
-        {bullet: 'Achieved a 98% patient satisfaction rating as a team by ensuring timely patient care and managing high-priority tasks, thus streamlining workflow and maintaining operational consistency to meet critical deadlines.'}
+        {bullet: 'Analyzed testing and complex data sets to identify potential sources of patient vision issues'}, 
+        {bullet: 'Demonstrated meticulous attention to detail in data entry, quipment calibration, and patient care to ensure accuracy and efficiency.'}, 
+        {bullet: 'Achieved a 98% patient satisfaction rating as a team by ensuring timely patient care and managing high-priority tasks, thus streamlining workflow and maintaining operational consistency to meet critical deadlines.'},
+        {bullet: 'Collaborated with cross-functional teams to conduct chart audits, ensuring HIPAA compliance and maintaining EHR integrity.'}
     ]}, 
-    {position: 'Graphic Designer', dates: 'January 2018 - Current', business: 'Utah Valley Eye Center', location: 'Provo, UT', accomplishments: [
+    {position: 'Marketing Specialist', dates: 'January 2018 - Current', business: 'Utah Valley Eye Center', location: 'Provo, UT', accomplishments: [
+        {bullet: 'Demonstrated ability to rapidly deliver high-quality solutions under tight deadlines, balancing speed and excellence to consistently exceed expectations.'},
         {bullet: 'Collaborated with the marketing coordinator to implement a data-driven social media strategy that yielded a 40% increase in engagement and growth over the course of one year.'},
         {bullet: 'Designed and produced compelling visual media using Photoshop and Illustrator, resulting in a 127% increase in audience reach.'
         }
